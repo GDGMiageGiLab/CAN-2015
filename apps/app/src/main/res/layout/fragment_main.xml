@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:background="#ffdcc2"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffe5c4ac">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <Button
+                style="@style/Stylebtn"
+                android:background="@drawable/button"/>
+
+            <Button
+                style="@style/Stylebtn"
+                android:background="@drawable/videophotobtn"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <Button
+                style="@style/Stylebtn"
+                android:background="@drawable/matchdujourbtn"/>
+            <Button
+                style="@style/Stylebtn"
+                android:background="@drawable/partagebtn"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <Button
+                style="@style/Stylebtn"
+                android:background="@drawable/calendrierbutton"
+                />
+
+            <Button
+                style="@style/Stylebtn"
+                android:background="@drawable/fluxbtn"/>
+
+            </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
