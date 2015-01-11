@@ -10,6 +10,17 @@
     <string name="action_example">Partager</string>
     <string name="action_settings">Paramètres</string>
 
+    <string name="message_bootstrapping_data">Initialisation en cours.</string>
+    <string name="message_fetching_posts">Mise à jour des données en cours.</string>
+    <string name="error_no_network">Pas de connextion Internet.</string>
+    <string name="error_server">Une erreur est survenue. Veuillez réessayer dans quelques instants.</string>
+
+
+    <string-array name="social_list_tabs">
+        <item>Twitter</item>
+        <item>Instagram</item>
+    </string-array>
+
 
     <string-array name="menuitem">
         <item>Accueil</item>
