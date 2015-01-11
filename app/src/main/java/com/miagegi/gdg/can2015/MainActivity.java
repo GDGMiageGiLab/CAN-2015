@@ -47,6 +47,8 @@ public class MainActivity extends ActionBarActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         navMenuTitles = getResources().getStringArray(R.array.menuitem);
 
@@ -86,6 +88,12 @@ public class MainActivity extends ActionBarActivity
                 break;
             case 5:
                 mTitle = navMenuTitles[4];
+                break;
+            case 6:
+                mTitle = navMenuTitles[5];
+                break;
+            case 7:
+                mTitle = navMenuTitles[6];
                 break;
 
         }

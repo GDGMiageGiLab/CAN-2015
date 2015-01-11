@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">CAN2015</string>
+    <string name="app_name">CAN 2015</string>
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="action_example">Example action</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_example">Partager</string>
+    <string name="action_settings">Paramètres</string>
 
 
     <string-array name="menuitem">
         <item>Accueil</item>
         <item>Historique</item>
+        <item>Programmes</item>
+        <item>Stades</item>
         <item>Flux</item>
         <item>A propos</item>
         <item>Quiter</item>
@@ -24,6 +26,8 @@
         <item>@drawable/ic_home</item>
         <item>@drawable/ic_historique</item>
         <item>@drawable/ic_flux</item>
+        <item>@drawable/ic_stades</item>
+        <item>@drawable/ic_twitter</item>
         <item>@drawable/ic_apropos</item>
         <item>@drawable/ic_quit</item>
     </array>
