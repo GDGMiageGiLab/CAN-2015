@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CAN-2015.iml" filepath="$PROJECT_DIR$/CAN-2015.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CAN2015.iml" filepath="$PROJECT_DIR$/CAN2015.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

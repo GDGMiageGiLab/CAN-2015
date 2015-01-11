@@ -1,4 +1,4 @@
-package com.miagegi.gdg.can2015;
+package com.gdg.miagegi.can2015;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 
 import java.util.ArrayList;
 

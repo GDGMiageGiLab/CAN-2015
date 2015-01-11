@@ -1,4 +1,4 @@
-package com.miagegi.gdg.can2015;
+package com.gdg.miagegi.can2015;
 
 /**
  * Kouakou Aristide Guy

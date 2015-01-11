@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.miagegi.gdg.can2015" >
+    package="com.gdg.miagegi.can2015" >
 
     <application
         android:allowBackup="true"
