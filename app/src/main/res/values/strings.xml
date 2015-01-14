@@ -9,19 +9,15 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Partager</string>
     <string name="action_settings">Paramètres</string>
-
     <string name="message_bootstrapping_data">Initialisation en cours.</string>
     <string name="message_fetching_posts">Mise à jour des données en cours.</string>
     <string name="error_no_network">Pas de connextion Internet.</string>
     <string name="error_server">Une erreur est survenue. Veuillez réessayer dans quelques instants.</string>
 
-
     <string-array name="social_list_tabs">
         <item>Twitter</item>
         <item>Instagram</item>
     </string-array>
-
-
     <string-array name="menuitem">
         <item>Accueil</item>
         <item>Historique</item>
@@ -31,7 +27,6 @@
         <item>A propos</item>
         <item>Quiter</item>
     </string-array>
-
 
     <array name="nav_drawer_icons">
         <item>@drawable/ic_home</item>
@@ -44,5 +39,8 @@
     </array>
 
     <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_feed_list">FeedListActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_feed_details">FeedDetailsActivity</string>
 
 </resources>
