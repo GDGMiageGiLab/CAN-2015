@@ -39,8 +39,6 @@
     </array>
 
     <string name="desc_list_item_icon">Item Icon</string>
-    <string name="title_activity_feed_list">FeedListActivity</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_feed_details">FeedDetailsActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

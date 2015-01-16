@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gdg.miagegi.can2015" >
 
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -17,11 +18,10 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/CustomActionBarTheme" >
+
         <service android:name=".service.SocialFetchService" />
-        <service android:name=".service.DataFetchService" />
-        <service android:name=".service.RefreshService" />
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,30 +29,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".activity.SocialActivity"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name=".activity.FeedListActivity"
-            android:label="@string/title_activity_feed_list" >
-        </activity>
-        <activity
-            android:name=".activity.FeedDetailsActivity"
-            android:label="@string/title_activity_feed_details" >
-        </activity>
-
-        <receiver android:name=".receiver.BootCompletedBroadcastReceiver" >
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
-        <receiver android:name=".receiver.ConnectionChangeReceiver" >
-            <intent-filter>
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-            </intent-filter>
-        </receiver>
-        <receiver android:name=".service.RefreshService$RefreshAlarmReceiver" />
     </application>
 
 </manifest>
