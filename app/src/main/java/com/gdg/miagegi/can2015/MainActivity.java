@@ -25,7 +25,7 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import com.gdg.miagegi.can2015.fragment.AproposFragment;
-import com.gdg.miagegi.can2015.fragment.FluxFragment;
+import com.gdg.miagegi.can2015.fragment.FeedListFragment;
 import com.gdg.miagegi.can2015.fragment.HistoriqueFragment;
 import com.gdg.miagegi.can2015.fragment.ProgrammeFragment;
 import com.gdg.miagegi.can2015.fragment.StadesFragment;
@@ -103,9 +103,9 @@ public class MainActivity extends ActionBarActivity
                         .commit();
                 break;
             case 4:
-                Fragment fluxfragment = new FluxFragment();
+                Fragment feedListFragment = new FeedListFragment();
                 fragmentManager.beginTransaction()
-                        .replace(R.id.container, fluxfragment)
+                        .replace(R.id.container, feedListFragment)
                         .commit();
                 break;
             case 5:

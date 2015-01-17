@@ -9,6 +9,7 @@ import android.app.NotificationManager;
 import android.content.Context;
 
 public class Constants {
+    public static final String EXTRA_FEED ="com.gdg.miagegi.can2015.EXTRA_FEED";
     private static final String _BASE_API_DEV = "http://192.168.1.3:9000/api/1";
     private static final String _BASE_API_PROD = "http:///api/1";
 
