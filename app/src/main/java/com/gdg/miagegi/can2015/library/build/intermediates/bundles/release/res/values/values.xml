@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PagerIndicator"><attr format="enum" name="visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/></attr><attr format="enum" name="shape"><enum name="oval" value="0"/><enum name="rect" value="1"/></attr><attr format="color" name="selected_color"/><attr format="color" name="unselected_color"/><attr format="reference" name="selected_drawable"/><attr format="reference" name="unselected_drawable"/><attr format="dimension" name="selected_width"/><attr format="dimension" name="selected_height"/><attr format="dimension" name="unselected_width"/><attr format="dimension" name="unselected_height"/><attr format="dimension" name="padding_left"/><attr format="dimension" name="padding_right"/><attr format="dimension" name="padding_top"/><attr format="dimension" name="padding_bottom"/><attr format="dimension" name="selected_padding_left"/><attr format="dimension" name="selected_padding_right"/><attr format="dimension" name="selected_padding_top"/><attr format="dimension" name="selected_padding_bottom"/><attr format="dimension" name="unselected_padding_left"/><attr format="dimension" name="unselected_padding_right"/><attr format="dimension" name="unselected_padding_top"/><attr format="dimension" name="unselected_padding_bottom"/></declare-styleable>
+    <declare-styleable name="SliderLayout"><attr format="enum" name="indicator_visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/></attr><attr format="boolean" name="auto_cycle"/><attr format="enum" name="pager_animation"><enum name="Default" value="0"/><enum name="Accordion" value="1"/><enum name="Background2Foreground" value="2"/><enum name="CubeIn" value="3"/><enum name="DepthPage" value="4"/><enum name="Fade" value="5"/><enum name="FlipHorizontal" value="6"/><enum name="FlipPage" value="7"/><enum name="Foreground2Background" value="8"/><enum name="RotateDown" value="9"/><enum name="RotateUp" value="10"/><enum name="Stack" value="11"/><enum name="Tablet" value="12"/><enum name="ZoomIn" value="13"/><enum name="ZoomOutSlide" value="14"/><enum name="ZoomOut" value="15"/></attr><attr format="integer" name="pager_animation_span"/></declare-styleable>
+    <declare-styleable name="Themes"><attr format="reference" name="SliderStyle"/><attr format="reference" name="PagerIndicatorStyle"/></declare-styleable>
+    <!-- From: file:/C:/Users/ericzile/Documents/GitHub/AndroidImageSlider/library/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Slider</string>
+    <!-- From: file:/C:/Users/ericzile/Documents/GitHub/AndroidImageSlider/library/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AndroidImageSlider_Attractive_Rect_Blue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="shape">rect</item>
+        <item name="padding_left">3dp</item>
+        <item name="padding_right">3dp</item>
+        <item name="padding_top">4dp</item>
+        <item name="padding_bottom">4dp</item>
+
+        <item name="selected_color">#30CCE5</item>
+        <item name="unselected_color">#333333</item>
+        <item name="selected_width">13dp</item>
+        <item name="selected_height">4dp</item>
+        <item name="unselected_width">13dp</item>
+        <item name="unselected_height">4dp</item>
+    </style>
+    <style name="AndroidImageSlider_Corner_Oval_Orange">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/indicator_corner_bg</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="shape">oval</item>
+        <item name="padding_left">3dp</item>
+        <item name="padding_right">3dp</item>
+        <item name="padding_top">4dp</item>
+        <item name="padding_bottom">4dp</item>
+
+        <item name="selected_color">#f60</item>
+        <item name="unselected_color">#ffffff</item>
+        <item name="selected_width">6dp</item>
+        <item name="selected_height">6dp</item>
+        <item name="unselected_width">6dp</item>
+        <item name="unselected_height">6dp</item>
+    </style>
+    <style name="AndroidImageSlider_Magnifier_Oval_Black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="shape">oval</item>
+        <item name="padding_left">3dp</item>
+        <item name="padding_right">3dp</item>
+        <item name="padding_top">4dp</item>
+        <item name="padding_bottom">4dp</item>
+
+        <item name="selected_color">#333333</item>
+        <item name="unselected_color">#33000000</item>
+        <item name="selected_width">8dp</item>
+        <item name="selected_height">8dp</item>
+        <item name="unselected_width">6dp</item>
+        <item name="unselected_height">6dp</item>
+    </style>
+</resources>

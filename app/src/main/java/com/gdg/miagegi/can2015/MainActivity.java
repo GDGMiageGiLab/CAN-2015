@@ -22,11 +22,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.ListView;
 
 import com.gdg.miagegi.can2015.fragment.AproposFragment;
 import com.gdg.miagegi.can2015.fragment.FluxFragment;
 import com.gdg.miagegi.can2015.fragment.HistoriqueFragment;
+import com.gdg.miagegi.can2015.fragment.NewsFragment;
 import com.gdg.miagegi.can2015.fragment.ProgrammeFragment;
 import com.gdg.miagegi.can2015.fragment.StadesFragment;
 
@@ -55,6 +57,7 @@ public class MainActivity extends ActionBarActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // enable transitions
         setContentView(R.layout.activity_main);
 
         ActionBar actionBar = getSupportActionBar();
@@ -109,6 +112,12 @@ public class MainActivity extends ActionBarActivity
                         .commit();
                 break;
             case 5:
+                Fragment newsfragment = new NewsFragment();
+                fragmentManager.beginTransaction()
+                        .replace(R.id.container, newsfragment)
+                        .commit();
+                break;
+            case 6:
                 Fragment aproposfragment = new AproposFragment();
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, aproposfragment)
@@ -140,6 +149,9 @@ public class MainActivity extends ActionBarActivity
                 break;
             case 7:
                 mTitle = navMenuTitles[6];
+                break;
+            case 8:
+                mTitle = navMenuTitles[7];
                 break;
 
         }

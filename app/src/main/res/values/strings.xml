@@ -24,6 +24,7 @@
         <item>Programmes</item>
         <item>Stades</item>
         <item>Flux</item>
+        <item>News</item>
         <item>A propos</item>
         <item>Quiter</item>
     </string-array>
@@ -34,6 +35,7 @@
         <item>@drawable/ic_flux</item>
         <item>@drawable/ic_stades</item>
         <item>@drawable/ic_twitter</item>
+        <item>@drawable/ic_rss</item>
         <item>@drawable/ic_apropos</item>
         <item>@drawable/ic_quit</item>
     </array>
