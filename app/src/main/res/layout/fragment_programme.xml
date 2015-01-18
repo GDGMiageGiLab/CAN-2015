@@ -4,7 +4,1253 @@
     tools:context="com.gdg.miagegi.can2015.fragment.ProgrammeFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dip"
+            android:padding="1dip"
+            android:stretchColumns="5">
+
+            <TableRow>
+                <TextView />
+                <TextView
+                    android:text="Poule A"
+                    android:padding="2dip"/>
+                <TextView />
+                <TextView/>
+                <TextView
+                    android:text="17/01"
+                    android:padding="2dip"/>
+                <TextView />
+                <TextView />
+                <TextView />
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView
+                    android:text="Ville"/>
+                <TextView
+                    android:text="Heure"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Guinée Equ."
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/guineeequatoriale"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_guineeequatoriale"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_congobrazza"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/congobrazza"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Congo"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Bata"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="17h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Guinée Equ."
+                    android:padding="3dip"/>
+                <ImageView
+                    android:src="@drawable/burkina"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_burkina"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_gabon"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/gabon"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Gabon"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Bata"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="20h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView/>
+                <TextView/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView
+                    android:text="Poule B"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView/>
+                <TextView
+                    android:text="18/01"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView />
+                <TextView />
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView
+                    android:text="Ville"/>
+                <TextView
+                    android:text="Heure"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Zambie"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/zambie"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_zambie"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_rdc"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/rdc"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="RDC"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Ebebiyin"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="17h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Tunisie"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/tunisie"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_tunisie"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_capvert"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/capvert"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Cap-Vert"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Ebebiyin"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="20h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView/>
+                <TextView/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView
+                    android:text="Poule C"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView/>
+                <TextView
+                    android:text="19/01"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView />
+                <TextView />
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView
+                    android:text="Ville"/>
+                <TextView
+                    android:text="Heure"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Ghana"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/ghana"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_ghana"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_senegal"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/senegal"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Sénégal"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Mongomo"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="17h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Algérie"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/algerie"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_algerie"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_afs"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/afs"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Afr.du Sud"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Mongomo"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="20h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView/>
+                <TextView/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView
+                    android:text="Poule D"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView/>
+                <TextView
+                    android:text="20/01"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView />
+                <TextView />
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView
+                    android:text="Ville"/>
+                <TextView
+                    android:text="Heure"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Cote d'Iv."
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/ci"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_ci"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_guinee"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/guinee"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Guinée"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Malabo"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="17h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Mali"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/mali"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_mali"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_cameroun"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/cameroun"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Cameroun"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Malabo"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="20h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView/>
+                <TextView/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView
+                    android:text="Poule A"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView/>
+                <TextView
+                    android:text="21/01"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView />
+                <TextView />
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView
+                    android:text="Ville"/>
+                <TextView
+                    android:text="Heure"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Guinée Equ."
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/guineeequatoriale"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_guineeequatoriale2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_burkina2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/burkina"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Burkina F."
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Bata"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="17h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Gabon"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/gabon"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_gabon2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_congobrazza2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/congobrazza"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Congo"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Bata"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="20h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView/>
+                <TextView/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView
+                    android:text="Poule B"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView/>
+                <TextView
+                    android:text="22/01"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView />
+                <TextView />
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView
+                    android:text="Ville"/>
+                <TextView
+                    android:text="Heure"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Zambie"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/zambie"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_zambie2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_tunisie2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/tunisie"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Tunisie"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Ebebiyin"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="17h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Cap-Vert"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/capvert"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_capvert2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_rdc2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/rdc"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="RDC"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Ebebiiyin"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="20h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView/>
+                <TextView/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView
+                    android:text="Poule C"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView/>
+                <TextView
+                    android:text="23/01"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView />
+                <TextView />
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView
+                    android:text="Ville"/>
+                <TextView
+                    android:text="Heure"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Ghana"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/ghana"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_ghana2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_algerie2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/algerie"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Algerie"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Mongomo"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="17h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Afr. du Sud"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/afs"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_afs2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_senegal2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/senegal"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Sénégal"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Mongomo"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="20h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView/>
+                <TextView/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView
+                    android:text="Poule D"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView/>
+                <TextView
+                    android:text="24/01"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView />
+                <TextView />
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView
+                    android:text="Ville"/>
+                <TextView
+                    android:text="Heure"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Cote d'Iv."
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/ci"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_ci2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_mali2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/mali"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Mali"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Malabo"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="17h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Cameroun"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/cameroun"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_cameroun2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_guinee2"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/guinee"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Guinée"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Malabo"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="20h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView/>
+                <TextView/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView
+                    android:text="Poule A"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView/>
+                <TextView
+                    android:text="25/01"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView />
+                <TextView />
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView
+                    android:text="Ville"/>
+                <TextView
+                    android:text="Heure"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Gabon"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/gabon"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_gabon3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_guineeequatoriale3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/guineeequatoriale"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Guinée Equ."
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Bata"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="19h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Congo"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/congobrazza"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_congobrazza3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_burkina3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/burkina"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Burkina F."
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Ebebiyin"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="19h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView/>
+                <TextView/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView
+                    android:text="Poule B"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView/>
+                <TextView
+                    android:text="26/01"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView />
+                <TextView />
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView
+                    android:text="Ville"/>
+                <TextView
+                    android:text="Heure"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Cap-Vert"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/capvert"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_capvert3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_zambie3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/zambie"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Zambie"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Ebebiyin"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="19h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="RDC"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/rdc"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_rdc3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_tunisie3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/tunisie"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Tunisie"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Bata"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="19h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView/>
+                <TextView/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView
+                    android:text="Poule C"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView/>
+                <TextView
+                    android:text="27/01"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView />
+                <TextView />
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView
+                    android:text="Ville"/>
+                <TextView
+                    android:text="Heure"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Afr. du Sud"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/afs"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_afs3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_ghana3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/ghana"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Ghana"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Mongomo"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="19h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Sénégal"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/senegal"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_senegal3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_algerie3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/algerie"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Algérie"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Malabo"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="19h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView/>
+                <TextView/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView
+                    android:text="Poule D"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView/>
+                <TextView
+                    android:text="28/01"
+                    android:padding="1dip"/>
+                <TextView />
+                <TextView />
+                <TextView />
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView
+                    android:text="Ville"/>
+                <TextView
+                    android:text="Heure"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Cameroun"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/cameroun"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_cameroun3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_ci3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/ci"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Côte d'Iv."
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Malabo"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="19h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Guinée"
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/guinee"
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_guinee3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <TextView
+                    android:id="@+id/score_mali3"
+                    android:text="  "
+                    android:padding="2dip"/>
+                <ImageView
+                    android:src="@drawable/mali"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Mali"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="Mongomo"
+                    android:padding="2dip"/>
+                <TextView
+                    android:text="19h00"
+                    android:padding="2dip"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView/>
+                <TextView/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView />
+                <TextView/>
+                <TextView/>
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
 
 </FrameLayout>

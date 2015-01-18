@@ -1,0 +1,76 @@
+﻿Merge remote-tracking branch 'origin/master'
+
+Conflicts:
+	app/app.iml
+	app/src/main/java/com/gdg/miagegi/can2015/fragment/FluxFragment.java
+	app/src/main/java/com/gdg/miagegi/can2015/fragment/ProgrammeFragment.java
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 3 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   .idea/gradle.xml
+#	modified:   app/app.iml
+#	modified:   app/build.gradle
+#	modified:   app/src/main/AndroidManifest.xml
+#	new file:   app/src/main/assets/Roboto-Bold.ttf
+#	new file:   app/src/main/assets/Roboto-Light.ttf
+#	new file:   app/src/main/assets/Roboto-Medium.ttf
+#	new file:   app/src/main/assets/Roboto-Regular.ttf
+#	new file:   app/src/main/assets/Roboto-Thin.ttf
+#	new file:   app/src/main/java/com/gdg/miagegi/can2015/FeedDetailsActivity.java
+#	modified:   app/src/main/java/com/gdg/miagegi/can2015/MainActivity.java
+#	new file:   app/src/main/java/com/gdg/miagegi/can2015/adapter/FeedListAdapter.java
+#	new file:   app/src/main/java/com/gdg/miagegi/can2015/fragment/FeedDetailsFragment.java
+#	new file:   app/src/main/java/com/gdg/miagegi/can2015/fragment/FeedListFragment.java
+#	modified:   app/src/main/java/com/gdg/miagegi/can2015/fragment/ProgrammeFragment.java
+#	new file:   app/src/main/java/com/gdg/miagegi/can2015/model/Feed.java
+#	new file:   app/src/main/java/com/gdg/miagegi/can2015/receiver/BootCompletedBroadcastReceiver.java
+#	new file:   app/src/main/java/com/gdg/miagegi/can2015/receiver/ConnectionChangeReceiver.java
+#	new file:   app/src/main/java/com/gdg/miagegi/can2015/service/DataFetchService.java
+#	new file:   app/src/main/java/com/gdg/miagegi/can2015/service/RefreshService.java
+#	modified:   app/src/main/java/com/gdg/miagegi/can2015/utils/Constants.java
+#	new file:   app/src/main/res/drawable/afs.png
+#	new file:   app/src/main/res/drawable/algerie.png
+#	new file:   app/src/main/res/drawable/burkina.png
+#	new file:   app/src/main/res/drawable/cameroun.png
+#	new file:   app/src/main/res/drawable/capvert.png
+#	new file:   app/src/main/res/drawable/ci.png
+#	new file:   app/src/main/res/drawable/congobrazza.png
+#	new file:   app/src/main/res/drawable/gabon.png
+#	new file:   app/src/main/res/drawable/ghana.png
+#	new file:   app/src/main/res/drawable/guinee.png
+#	new file:   app/src/main/res/drawable/guineeequatoriale.png
+#	new file:   app/src/main/res/drawable/info_detail_rect.xml
+#	new file:   app/src/main/res/drawable/logocan2015.jpg
+#	new file:   app/src/main/res/drawable/mali.png
+#	new file:   app/src/main/res/drawable/myrect.xml
+#	new file:   app/src/main/res/drawable/rdc.png
+#	new file:   app/src/main/res/drawable/senegal.png
+#	new file:   app/src/main/res/drawable/tunisie.png
+#	new file:   app/src/main/res/drawable/zambie.png
+#	new file:   app/src/main/res/layout/activity_feed_list.xml
+#	new file:   app/src/main/res/layout/feed_list_item.xml
+#	new file:   app/src/main/res/layout/fragment_feed_details.xml
+#	modified:   app/src/main/res/layout/fragment_programme.xml
+#	new file:   app/src/main/res/menu/menu_feed_details.xml
+#	new file:   app/src/main/res/menu/menu_feed_list.xml
+#	new file:   app/src/main/res/menu/social_details.xml
+#	new file:   app/src/main/res/values/colors.xml
+#
+# Untracked files:
+#	CAN-2015/
+#
+
