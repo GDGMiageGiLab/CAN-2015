@@ -52,7 +52,7 @@ public class HomeFragment extends Fragment implements BaseSliderView.OnSliderCli
         HashMap<String,Integer> file_maps = new HashMap<String, Integer>();
         file_maps.put("Tous contre EBOLA",R.drawable.ivoirien);
         file_maps.put("Champion d'afrique 2013",R.drawable.nigeria);
-        file_maps.put("l'Algerie, un favorie...",R.drawable.algerie);
+        file_maps.put("l'Algerie, un favorie...",R.drawable.algeri);
         file_maps.put("la CAF", R.drawable.slide1);
         file_maps.put("Eliminatoires ....", R.drawable.slide2);
         file_maps.put("Ballon officiel de la CAN 2015", R.drawable.ballon);

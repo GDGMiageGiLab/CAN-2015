@@ -6,12 +6,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.gdg.miagegi.can2015.MainActivity;
 import com.gdg.miagegi.can2015.R;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FluxFragment extends Fragment {
+public class FluxFragment extends Fragment{
 
     public FluxFragment() {
         // Required empty public constructor

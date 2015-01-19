@@ -106,17 +106,19 @@ public class MainActivity extends ActionBarActivity
                         .commit();
                 break;
             case 4:
-                Fragment feedListFragment = new FeedListFragment();
-                fragmentManager.beginTransaction()
-                        .replace(R.id.container, feedListFragment)
-                        .commit();
-                break;
-            case 5:
                 Fragment newsfragment = new NewsFragment();
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, newsfragment)
                         .commit();
                 break;
+
+            case 5:
+                Fragment feedListFragment = new FeedListFragment();
+                fragmentManager.beginTransaction()
+                        .replace(R.id.container, feedListFragment)
+                        .commit();
+                break;
+
             case 6:
                 Fragment aproposfragment = new AproposFragment();
                 fragmentManager.beginTransaction()
