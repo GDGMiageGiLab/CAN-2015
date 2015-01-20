@@ -17,9 +17,24 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         />
-
-    <TextView
+    <RelativeLayout
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_below="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+        <Button
+            android:layout_below="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        </RelativeLayout>
+
 </LinearLayout>
