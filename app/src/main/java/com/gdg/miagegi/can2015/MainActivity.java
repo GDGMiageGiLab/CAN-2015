@@ -27,9 +27,11 @@ import android.widget.ListView;
 
 import com.gdg.miagegi.can2015.fragment.AproposFragment;
 import com.gdg.miagegi.can2015.fragment.FeedListFragment;
+import com.gdg.miagegi.can2015.fragment.FluxFragment;
 import com.gdg.miagegi.can2015.fragment.HistoriqueFragment;
 import com.gdg.miagegi.can2015.fragment.NewsFragment;
 import com.gdg.miagegi.can2015.fragment.ProgrammeFragment;
+import com.gdg.miagegi.can2015.fragment.SocialListFragment;
 import com.gdg.miagegi.can2015.fragment.StadesFragment;
 
 import java.util.ArrayList;
@@ -106,7 +108,7 @@ public class MainActivity extends ActionBarActivity
                         .commit();
                 break;
             case 4:
-                Fragment newsfragment = new NewsFragment();
+                Fragment newsfragment = new SocialListFragment();
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, newsfragment)
                         .commit();
@@ -125,6 +127,8 @@ public class MainActivity extends ActionBarActivity
                         .replace(R.id.container, aproposfragment)
                         .commit();
                 break;
+
+
         }
     }
 
