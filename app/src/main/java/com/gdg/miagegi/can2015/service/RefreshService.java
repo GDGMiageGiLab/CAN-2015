@@ -15,11 +15,13 @@ public class RefreshService extends Service {
     public static class RefreshAlarmReceiver extends BroadcastReceiver {
         @Override
         public void onReceive(Context context, Intent intent) {
+
+            context.startService(new Intent(context, SocialFetchService.class));
             context.startService(new Intent(context, DataFetchService.class));
         }
     }
 
-    public static final String SIXTY_MINUTES = "3600000";
+    public static final String SIXTY_MINUTES = "5000";
 
     private AlarmManager alarmManager;
 
@@ -69,7 +71,7 @@ public class RefreshService extends Service {
             alarmManager.cancel(timerIntent);
         }
 
-        int time = 3600000;
+        int time = 5000;
         try {
             time = Math.max(60000, Integer.parseInt(Utils.getString(Utils.REFRESH_INTERVAL, SIXTY_MINUTES)));
         } catch (final Exception ignored) {

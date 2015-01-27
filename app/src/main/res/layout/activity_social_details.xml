@@ -4,6 +4,7 @@
     android:layout_height="fill_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@drawable/stadium"
     tools:context="com.gdg.miagegi.can2015.activity.SocialDetailsActivity">
     
     <LinearLayout

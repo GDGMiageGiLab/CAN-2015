@@ -2,22 +2,16 @@ package com.gdg.miagegi.can2015.activity;
 
 import com.androidquery.AQuery;
 import com.squareup.otto.Subscribe;
-
-
 import com.gdg.miagegi.can2015.R;
-import com.gdg.miagegi.can2015.R.layout;
 import com.gdg.miagegi.can2015.adapter.SocialViewPagerTabAdapter;
 import com.gdg.miagegi.can2015.event.NetworkOperationEvent;
 import com.gdg.miagegi.can2015.model.Social;
 import com.gdg.miagegi.can2015.service.SocialFetchService;
 import com.gdg.miagegi.can2015.utils.BusProvider;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
-import android.support.v4.view.PagerTabStrip;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;

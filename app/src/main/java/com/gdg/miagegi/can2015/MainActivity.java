@@ -127,6 +127,9 @@ public class MainActivity extends ActionBarActivity
                         .replace(R.id.container, aproposfragment)
                         .commit();
                 break;
+            case 7:
+                finish();
+                break;
 
 
         }
@@ -135,28 +138,28 @@ public class MainActivity extends ActionBarActivity
     public void onSectionAttached(int number) {
         switch (number) {
 
-            case 1:
+            case 0:
                 mTitle = navMenuTitles[0];
                 break;
-            case 2:
+            case 1:
                 mTitle = navMenuTitles[1];
                 break;
-            case 3:
+            case 2:
                 mTitle = navMenuTitles[2];
                 break;
-            case 4:
+            case 3:
                 mTitle = navMenuTitles[3];
                 break;
-            case 5:
+            case 4:
                 mTitle = navMenuTitles[4];
                 break;
-            case 6:
+            case 5:
                 mTitle = navMenuTitles[5];
                 break;
-            case 7:
+            case 6:
                 mTitle = navMenuTitles[6];
                 break;
-            case 8:
+            case 7:
                 mTitle = navMenuTitles[7];
                 break;
 

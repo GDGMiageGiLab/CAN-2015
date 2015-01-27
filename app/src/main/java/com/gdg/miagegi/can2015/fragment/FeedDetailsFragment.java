@@ -57,7 +57,7 @@ public class FeedDetailsFragment extends Fragment{
             textTitle.setText(feed.title);
             Date date = feed.pubDate;
             DateTime dt = new DateTime(date);
-            DateTimeFormatter fmt = DateTimeFormat.forPattern("E e MMMM yyyy HH:mm:ss");
+            DateTimeFormatter fmt = DateTimeFormat.forPattern("E d MMMM yyyy HH:mm:ss");
             String str = fmt.print(dt);
             textDate.setText(str);
             textDescription.setText(Html.fromHtml(feed.description));

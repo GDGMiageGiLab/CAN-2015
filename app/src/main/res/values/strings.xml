@@ -42,5 +42,10 @@
 
     <string name="desc_list_item_icon">Item Icon</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="title_activity_splashscreen">Splashscreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="intro"> Le GDG Miage Gi est une communauté de développeur Ivoirienne qui à pour objectif de faire la promotion des Outils Google. </string>
+    <string name="dev"> Application développé par le GDG Miage Gi</string>
+    <string name="contact"> Contact : miage.gdg@gmail.com </string>
 </resources>

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import com.androidquery.AQuery;
+import com.gdg.miagegi.can2015.MainApplication;
 import com.gdg.miagegi.can2015.R;
 import com.gdg.miagegi.can2015.model.Feed;
 import android.content.Context;
@@ -15,6 +16,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import net.danlew.android.joda.JodaTimeAndroid;
 
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
@@ -53,6 +56,7 @@ public class FeedListAdapter extends RecyclerView.Adapter<FeedListAdapter.MyView
         final Feed object = mMainListItem.get(position);
 
         if (object != null) {
+            JodaTimeAndroid.init(MainApplication.getContext());
             holder.tvTitle.setText(object.title);
             Date date = object.pubDate;
             DateTime dt = new DateTime(date);

@@ -1,40 +1,85 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical"
-    android:background="@drawable/green"
-    android:weightSum="1.0">
-    <com.daimajia.slider.library.SliderLayout
-        android:id="@+id/slider"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        />
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/teams"
+        android:weightSum="1.0">
 
-    <com.daimajia.slider.library.Indicators.PagerIndicator
-        android:id="@+id/custom_indicator"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        />
-    <RelativeLayout
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <Button
-            android:id="@+id/button1"
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
             android:layout_width="match_parent"
-            android:layout_height="100dp" />
-        <Button
-            android:id="@+id/button2"
-            android:layout_below="@+id/button1"
+            android:layout_height="250dp"
+            />
+
+        <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/custom_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+        <RelativeLayout
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
-            android:layout_height="100dp" />
-        <Button
-            android:layout_below="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="100dp" />
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:id="@+id/block1">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="98dp"
+                    android:background="@drawable/ic_historique"/>
+                <Button
+                    android:id="@+id/button1"
+                    android:text="Historique"
+                    android:textSize="30dp"
+                    android:background="@color/bright_foreground_material_dark"
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/block2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/block1">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="98dp"
+                    android:background="@drawable/ic_stades"/>
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:text="Stades"
+                    android:textSize="30dp"
+                    android:background="@color/bright_foreground_material_dark"
+                    android:layout_height="100dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/block2">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="98dp"
+                    android:background="@drawable/ic_rss"/>
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:text="Actualités"
+                    android:textSize="30dp"
+                    android:background="@color/bright_foreground_material_dark"
+                    android:layout_height="100dp"/>
+            </LinearLayout>
 
         </RelativeLayout>
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>

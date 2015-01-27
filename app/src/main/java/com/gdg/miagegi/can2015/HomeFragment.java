@@ -3,22 +3,23 @@ package com.gdg.miagegi.can2015;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ListView;
-import android.widget.TextView;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.daimajia.slider.library.Animations.DescriptionAnimation;
-import com.daimajia.slider.library.Indicators.PagerIndicator;
 import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
+import com.gdg.miagegi.can2015.fragment.FeedListFragment;
+import com.gdg.miagegi.can2015.fragment.HistoriqueFragment;
+import com.gdg.miagegi.can2015.fragment.StadesFragment;
 
 import java.util.HashMap;
 
@@ -39,7 +40,7 @@ public class HomeFragment extends Fragment implements BaseSliderView.OnSliderCli
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
         // Inflate the layout for this fragment
-
+        initUI(rootView);
 
         mDemoSlider = (SliderLayout)rootView.findViewById(R.id.slider);
 
@@ -89,6 +90,47 @@ public class HomeFragment extends Fragment implements BaseSliderView.OnSliderCli
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         inflater.inflate(R.menu.main,menu);
+    }
+
+    private void initUI(View v){
+        Button button1 =(Button)v.findViewById(R.id.button1);
+        Button button2 =(Button)v.findViewById(R.id.button2);
+        Button button3 =(Button)v.findViewById(R.id.button3);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //tu fais ce que tu veux dans le onClick
+                FragmentManager fragmentManager = getFragmentManager();
+                Fragment historiquefragment = new HistoriqueFragment();
+                fragmentManager.beginTransaction()
+                        .replace(R.id.container, historiquefragment)
+                        .commit();
+                }
+            });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //tu fais ce que tu veux dans le onClick
+                FragmentManager fragmentManager = getFragmentManager();
+                Fragment stadesfragment = new StadesFragment();
+                fragmentManager.beginTransaction()
+                        .replace(R.id.container, stadesfragment)
+                        .commit();
+            }
+        });
+
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //tu fais ce que tu veux dans le onClick
+                FragmentManager fragmentManager = getFragmentManager();
+                Fragment newsfragment = new FeedListFragment();
+                fragmentManager.beginTransaction()
+                        .replace(R.id.container, newsfragment)
+                        .commit();
+            }
+        });
     }
 
     @Override

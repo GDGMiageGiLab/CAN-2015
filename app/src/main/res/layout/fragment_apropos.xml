@@ -1,6 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sky_stadium"
+    android:weightSum="1.0">
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        />
+
+    <com.daimajia.slider.library.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+    <RelativeLayout
+        android:layout_marginTop="25dp"
+        android:background="@color/bright_foreground_inverse_material_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/aboutbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GDG Miage Gi"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#ff009688"/>
+        <TextView
+            android:id="@+id/intro"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aboutbox"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:text="@string/intro"
+            />
+        <TextView
+            android:id="@+id/dev"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/intro"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="@string/dev"
+            />
+        <TextView
+            android:id="@+id/contact"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:text="@string/contact"
+            />
+
+    </RelativeLayout>
 
 </LinearLayout>
